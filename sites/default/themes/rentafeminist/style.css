@@ -1,0 +1,328 @@
+/* -- HTML TAGS -- */
+
+html,body {
+	margin:0;
+	padding:0;
+	background-color: #FFF000;
+	color: #333;
+	}
+
+body {
+  min-width: 660px;
+	font: 11px/140% Verdana,'Bitstream Vera Sans',Arial,sans-serif;
+	padding:30px
+	}
+
+a, a:visited {
+	color: #777;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+h1, h2, h3, h4 {
+	font-family: 'Trebuchet MS','Bitstream Vera Sans',Verdana,Arial,sans-serif;
+	font-style: italic;
+	letter-spacing: 1px;
+  font-weight: normal;
+  margin: 1.3em 0 0.4em 0;
+  color: #777;
+}
+
+h1 { font-size: 20px; }
+
+h2 { font-size: 18px; }
+
+h3 { font-size: 16px; }
+
+h4 { font-size: 14px; }
+
+p {
+  margin: 0.6em 0;
+  }
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, p:first-child {
+  margin-top: 0;
+  }
+
+input, textarea, select {
+  font-size: 11px;
+  }
+
+blockquote {
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 35px;
+  background-image: url('quote.png');
+  background-repeat: no-repeat;
+  background-position: 0 0; 
+  }
+
+
+/* -- FRONT PAGE DIV -- */
+
+#front_page {
+  position: absolute;
+  width: 490px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  margin-top: -135px; /* 112px */
+  margin-left: -245px;
+  }
+
+
+/* -- CONTAINER DIV -- */
+
+div#container{
+	width:660px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	background:#FFF;
+	}
+
+
+/* -- HEADER -- */
+
+#header {
+	width:620px;
+	padding: 10px 20px 0 20px;
+	margin: 0 0 -5px 0;
+	overflow:hidden;
+  background-image: url('bg_container_top.png');
+  background-repeat: no-repeat;
+  background-position: 0 0; 
+	}
+
+#header h1, #logo, #menu {
+	width:620px;
+	margin:0 auto;
+	text-align:left;
+	}
+
+#logo {
+	width:660px;
+	}
+
+#header h1, #header h1 a, #header h1 a:link, #header h1 a:visited {
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: #FFF000;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+#header #menu {
+	position: absolute;
+	top: 142px;
+	}
+
+#header #menu ul, #header #menu li {
+	list-style-type:none;
+	padding:0;
+	}
+
+#header #menu ul{
+	float:right;
+	font: 13px/1.3 'Trebuchet MS','Bitstream Vera Sans',Verdana,Arial,sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	font-style: italic;
+	margin: 0 30px 0;
+	}
+
+#header #menu ul li{
+	float:left;
+	margin:0 7px;
+	text-align: center
+	}
+
+#header #menu ul li img {
+  float: left;
+  margin-top: 4px;
+  }
+
+#header #menu ul li img.left { margin-right: 3px; }
+#header #menu ul li img.right { margin-left: 2px; }
+
+#header #menu ul a{
+	float:left;
+	text-decoration:none;
+	color: #000;
+	}
+
+#header #menu ul a:hover{
+	color: #FFF000;
+	}
+
+#header #menu ul a.active{
+	}
+
+
+/* -- BREADCRUMB, SLOGAN, MISSION -- */
+
+#content div.breadcrumb {
+  font-size: 11px;
+  color: #AAA;
+  font-family: 'Trebuchet MS','Bitstream Vera Sans',Verdana,Arial,sans-serif;
+  font-style: italic;
+  }
+
+#content .breadcrumb a, #content .breadcrumb a:visited {
+  color: #AAA;
+  }
+
+#slogan { /* UNUSED? */
+	float:left;
+	width:240px;
+	height:30px;
+	color:#FFF;
+	font-size:15px;
+	padding:10px 0 0 10px;
+	margin:0;
+	}
+
+#mission { /* UNUSED? */
+	padding: 5px 0;
+	margin: 0 10px 10px 0;
+	background: #FFF000;
+	font-size: 15px;
+	color: #FFF;
+	}
+
+#mission div.content { /* UNUSED? */
+	margin: 0 10px;
+	}
+
+h1.title {
+	margin: 10px 0;
+	line-height:150%;
+	}
+
+
+/* -- CONTENT AREA -- */
+
+#content{
+	float:left;
+	display:inline;
+	width:430px;
+	margin:0;
+	}
+
+#content h1, #content h1.title {
+  margin-top: 0;
+  }
+
+#content table {
+  font-size: 10px;
+  }
+
+#content .backlink {
+  margin-top: 30px;
+  }
+
+/* -- SIDEBAR -- */
+
+#sidebar {
+	font-size: 10px;
+	width: 115px;
+	float:left;
+	display:inline;
+	margin: 20px 25px 0 40px;
+	}
+
+#sidebar #secondary_links {
+  margin-bottom: 10px;
+  }
+
+#sidebar #secondary_links ul {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  border: 1px solid #CCC;
+  border-width: 1px 0;
+  list-style: none;
+  padding: 2px 0;
+  margin: 0;
+  }
+
+#sidebar #secondary_links a {
+  color: #777;
+  }
+
+#sidebar #secondary_links a.active {
+  color: #333;
+  }
+
+
+/* -- FOOTER --*/
+
+div#footer{
+  background-color: #FFF000;
+  background-image: url('bg_container_bottom.png');
+  background-repeat: no-repeat;
+  background-position: top; 
+	clear:both;
+	width:620px;
+	margin: 10px 0 0;
+	padding: 20px 20px 0 20px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: right;
+	}
+
+#footer a {
+  color: #FFF;
+  }
+
+/* -- NODES -- */
+
+.node {
+	margin-bottom:10px;
+}
+
+.node h2.title, .node h2.title a, .node h2.title a:link, .node h2.title a:visited {
+	margin: 0;
+	line-height:150%;
+	text-decoration: none;
+	font-size: 15px;
+	}
+
+.node h2.title a:hover {
+	color: #fff;
+	}
+
+
+/* -- BLOCKS -- */
+
+.block h2.title {
+	margin: 10px 0 0;
+	padding:0px;
+	line-height:150%;
+	font-size: 14px;
+	}
+
+#block-user-0 {
+  display: none;
+  }
+
+
+/* -- TABS -- */
+
+.tabs {
+	font-size: 11px;
+	}
+
+/* -- MISC -- */
+
+.textarea {
+	width:400px;
+	}
+
